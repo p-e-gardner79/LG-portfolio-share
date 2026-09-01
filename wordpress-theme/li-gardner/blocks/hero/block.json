@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "li-gardner/hero",
+  "title": "Hero & System Network",
+  "category": "li-gardner",
+  "icon": "superhero-alt",
+  "description": "Hero section with large headline, value proposition, and interactive 3D System Leverage SVG network.",
+  "keywords": ["hero", "headline", "network", "system", "intro"],
+  "render": "file:./hero.php",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "hero.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "html": false
+  }
+}

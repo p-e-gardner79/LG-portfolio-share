@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "li-gardner/contact",
+  "title": "Contact & Conversation Form",
+  "category": "li-gardner",
+  "icon": "email-alt",
+  "description": "Interactive AJAX contact form with feedback messaging.",
+  "keywords": ["contact", "form", "email", "conversation", "reach out"],
+  "render": "file:./contact.php",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "contact.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "html": false
+  }
+}

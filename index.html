@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Li Gardner | Product Strategy &amp; User-Centred Design</title>
+  <meta name="description" content="Product strategy and user-centred design for products, platforms and services—embedding the change needed for adoption to stick.">
+  <meta property="og:title" content="Li Gardner | Product Strategy &amp; User-Centred Design">
+  <meta property="og:description" content="Product strategy and user-centred design for products, platforms and services—embedding the change needed for adoption to stick.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
+
+  <main id="app-root" lang="en">
+    <!-- Sticky Navigation Header with Background Blur -->
+    <header class="site-header" id="site-header">
+      <div class="shell">
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="wordmark" href="#top" id="nav-brand" aria-label="Li Gardner, home">
+            <span class="brand-icon">LG</span>
+            <span class="brand-copy">
+              <span class="wordmark-name">Li Gardner</span>
+              <span class="brand-strapline" data-i18n="strapline">Global experience. Principal expertise. Embedded in your team.</span>
+            </span>
+          </a>
+
+          <div class="nav-tools">
+            <div class="nav-links" id="primary-nav-links">
+              <a href="#about" data-i18n="navAbout">About</a>
+              <a href="#approach" data-i18n="navApproach">Approach</a>
+              <a href="#services" data-i18n="navServices">Services</a>
+              <a href="#work-examples" data-i18n="navExamples">Work examples</a>
+              <a class="nav-cta" href="#contact" id="nav-cta-link">
+                <span data-i18n="navCta">Let's talk</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" class="arrow-icon diagonal" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M5 12h14M14 7l5 5-5 5" />
+                </svg>
+              </a>
+            </div>
+            <button type="button" class="language-switch" id="lang-toggle" aria-label="Switch language">
+              中文
+            </button>
+            <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+        <div class="mobile-nav-links">
+          <a href="#about" class="mobile-nav-link" data-i18n="navAbout">About</a>
+          <a href="#approach" class="mobile-nav-link" data-i18n="navApproach">Approach</a>
+          <a href="#services" class="mobile-nav-link" data-i18n="navServices">Services</a>
+          <a href="#work-examples" class="mobile-nav-link" data-i18n="navExamples">Work examples</a>
+          <a href="#contact" class="mobile-nav-link mobile-nav-cta">
+            <span data-i18n="navCta">Let's talk</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="arrow-icon diagonal" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M5 12h14M14 7l5 5-5 5" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="top">
+      <div class="hero-ambient-glow" id="hero-glow" aria-hidden="true"></div>
+      <div class="hero-grid shell">
+        <div class="hero-copy reveal">
+          <h1 id="hero-heading">
+            <span data-i18n="heroLine1">Connect what exists.</span><br>
+            <span data-i18n="heroLine2">Change what matters.</span><br>
+            <span class="highlight" data-i18n="heroLine3">Deliver what works.</span>
+          </h1>
+          <p class="hero-intro" data-i18n="heroIntro">
+            User-centred strategy and design for products, platforms and services—with the change needed for adoption to stick.
+          </p>
+          <div class="hero-actions">
+            <a class="consultation-cta" href="#contact" id="hero-cta-btn">
+              <span data-i18n="ctaConsultation">Let's talk</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24" class="arrow-icon diagonal" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 12h14M14 7l5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <p class="hero-footer" data-i18n="heroLocations">
+          Worked locations: London · Manchester · Edinburgh · New York · San Francisco · Singapore · Shanghai · Hong Kong · Zurich
+        </p>
+
+        <div class="leverage-card" id="leverage-card" aria-label="System Leverage Point interactive network visual">
+          <div class="orbit" id="leverage-orbit" aria-hidden="true">
+            <svg class="network-visual" viewBox="0 0 380 380" role="presentation">
+              <defs>
+                <radialGradient id="system-effect" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#ff765e" stop-opacity="0.24" />
+                  <stop offset="32%" stop-color="#ff765e" stop-opacity="0.12" />
+                  <stop offset="68%" stop-color="#ff765e" stop-opacity="0.045" />
+                  <stop offset="100%" stop-color="#ff765e" stop-opacity="0" />
+                </radialGradient>
+                <linearGradient id="network-line" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16" />
+                  <stop offset="50%" stop-color="#ff765e" stop-opacity="0.58" />
+                  <stop offset="100%" stop-color="#ffffff" stop-opacity="0.16" />
+                </linearGradient>
+              </defs>
+
+              <circle class="system-field" cx="190" cy="190" r="184" fill="url(#system-effect)" />
+              <circle class="ecosystem-ring outer" cx="190" cy="190" r="146" />
+              <circle class="ecosystem-ring inner" cx="190" cy="190" r="99" />
+
+              <g class="network-lines" stroke="url(#network-line)">
+                <path d="M190 190L190 53M190 190L311 119M190 190L311 259M190 190L190 327M190 190L69 259M190 190L69 119" />
+                <path class="secondary-link" d="M190 53L311 119L311 259L190 327L69 259L69 119Z" />
+                <path class="secondary-link" d="M190 53L69 259M311 119L190 327M311 259L69 119" />
+              </g>
+
+              <g class="synapses">
+                <circle cx="190" cy="119" r="3" />
+                <circle cx="251" cy="154" r="2.5" />
+                <circle cx="252" cy="226" r="3" />
+                <circle cx="190" cy="258" r="2.5" />
+                <circle cx="128" cy="226" r="3" />
+                <circle cx="128" cy="154" r="2.5" />
+                <circle cx="250" cy="86" r="2" />
+                <circle cx="311" cy="189" r="2" />
+                <circle cx="250" cy="293" r="2" />
+                <circle cx="129" cy="293" r="2" />
+                <circle cx="69" cy="189" r="2" />
+                <circle cx="129" cy="86" r="2" />
+              </g>
+
+              <g class="network-node" data-node="business">
+                <circle cx="190" cy="53" r="31" />
+                <text x="190" y="57" data-i18n="nodeBusiness">BUSINESS</text>
+              </g>
+              <g class="network-node" data-node="technology">
+                <circle cx="311" cy="119" r="31" />
+                <text x="311" y="123" data-i18n="nodeTechnology">TECHNOLOGY</text>
+              </g>
+              <g class="network-node" data-node="data-ai">
+                <circle cx="311" cy="259" r="31" />
+                <text x="311" y="256">
+                  <tspan x="311" data-i18n="nodeData">DATA</tspan>
+                  <tspan x="311" dy="11" data-i18n="nodeAI">&amp; AI</tspan>
+                </text>
+              </g>
+              <g class="network-node" data-node="people">
+                <circle cx="190" cy="327" r="31" />
+                <text x="190" y="331" data-i18n="nodePeople">PEOPLE</text>
+              </g>
+              <g class="network-node" data-node="customer">
+                <circle cx="69" cy="259" r="31" />
+                <text x="69" y="263" data-i18n="nodeCustomer">CUSTOMER</text>
+              </g>
+              <g class="network-node" data-node="delivery">
+                <circle cx="69" cy="119" r="31" />
+                <text x="69" y="123" data-i18n="nodeDelivery">DELIVERY</text>
+              </g>
+
+              <g class="focus-node" data-node="leverage">
+                <circle class="focus-halo" cx="190" cy="190" r="30" />
+                <circle cx="190" cy="190" r="19" />
+                <text x="190" y="187">
+                  <tspan x="190" data-i18n="nodeLeverage">LEVERAGE</tspan>
+                  <tspan x="190" dy="8" data-i18n="nodePoint">POINT</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Section -->
+    <section class="client-section" id="clients" aria-label="Selected organisations Li has worked with">
+      <div class="shell">
+        <p class="client-label reveal" data-i18n="clientLabel">Selected organisations I've worked with</p>
+        <div class="client-logos stagger-group" lang="en">
+          <span class="logo-item logo-government">Gov UK</span>
+          <span class="logo-item logo-nhs">NHS</span>
+          <span class="logo-item logo-hsbc">HSBC</span>
+          <span class="logo-item logo-blackrock">BlackRock</span>
+          <span class="logo-item logo-royalmail">Royal Mail</span>
+          <span class="logo-item logo-axa">AXA</span>
+          <span class="logo-item logo-rps">Royal Pharmaceutical<br>Society</span>
+          <span class="logo-item logo-regeneron">Regeneron</span>
+          <span class="logo-item logo-coop">Co-op</span>
+          <span class="logo-item logo-amway">amway</span>
+          <span class="logo-item logo-reuters">THOMSON REUTERS</span>
+          <span class="logo-item logo-microsoft">Microsoft</span>
+          <span class="logo-item logo-ea-cell"><span class="logo-ea">EA</span></span>
+          <span class="logo-item logo-natwest">NatWest</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tension Section (The leadership dilemma) -->
+    <section class="tension-section" id="tension">
+      <div class="shell tension-grid">
+        <p class="section-label reveal" data-i18n="tensionLabel">The leadership dilemma</p>
+        <div class="reveal">
+          <h2 data-i18n="tensionHeading">Most technology investment isn't delivering the return leaders expected.</h2>
+          <p class="tension-lead" data-i18n="tensionLead">Low adoption is the result of building the wrong thing.</p>
+          <p class="large-copy" data-i18n="tensionCopy1">Point solutions treat symptoms. Large rework programmes promise transformation. Neither fixes what's stuck.</p>
+          <p class="large-copy" data-i18n="tensionCopy2">When complexity already exists, the answer is less, not more. I apply user-centred design at a strategy level—designing for how people actually work, so the technology sticks.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section class="approach-section" id="approach">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="section-label light" data-i18n="approachLabel">A high-leverage intervention</p>
+          <h2>
+            <span data-i18n="approachHeading1">Connect technology,</span><br>
+            <span data-i18n="approachHeading2">people and business</span><br>
+            <span data-i18n="approachHeading3">for scaled impact</span>
+          </h2>
+        </div>
+        <div class="steps stagger-group">
+          <article class="step-card">
+            <span>01</span>
+            <h3 data-i18n="step1Title">Frame the opportunity</h3>
+            <p data-i18n="step1Desc">Clarify the user need, business value and constraint where focused action will have the greatest effect.</p>
+          </article>
+          <article class="step-card">
+            <span>02</span>
+            <h3 data-i18n="step2Title">Connect the system</h3>
+            <p data-i18n="step2Desc">Bring user, business, technology, data and delivery realities into one decision picture.</p>
+          </article>
+          <article class="step-card">
+            <span>03</span>
+            <h3 data-i18n="step3Title">Shape the solution</h3>
+            <p data-i18n="step3Desc">Turn insight into a focused product, platform or service proposition that teams can test, align around and deliver.</p>
+          </article>
+          <article class="step-card">
+            <span>04</span>
+            <h3 data-i18n="step4Title">Embed adoption</h3>
+            <p data-i18n="step4Desc">Build the decisions, behaviours and internal capability that turn delivery into sustained use and value.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services" aria-labelledby="services-heading">
+      <div class="shell">
+        <h2 id="services-heading" class="reveal" data-i18n="servicesHeading">My services</h2>
+        <div class="services-grid stagger-group">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <div class="service-content">
+              <h3 data-i18n="service1Title">Facilitate North Star vision design</h3>
+              <p data-i18n="service1Desc">Make success clear and concrete, with a shared North Star vision your teams align around, endorse and support.</p>
+              <p class="service-outcome" data-i18n="service1Outcome">Connect and set strategy for success</p>
+            </div>
+          </article>
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <div class="service-content">
+              <h3 data-i18n="service2Title">Lead MVP discovery and scoping</h3>
+              <p data-i18n="service2Desc">Define the right problem to solve, design the minimum viable product (MVP) that will move the needle, and shape the right team to deliver it.</p>
+              <p class="service-outcome" data-i18n="service2Outcome">Define the start and build momentum</p>
+            </div>
+          </article>
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <div class="service-content">
+              <h3 data-i18n="service3Title">Design UX strategy and holistic experience</h3>
+              <p data-i18n="service3Desc">Hands-on UX strategy and end-to-end experience design to make your product stand out, earn adoption and support your ambition to reach millions of users.</p>
+              <p class="service-outcome" data-i18n="service3Outcome">Make it real, together</p>
+            </div>
+          </article>
+          <article class="service-card">
+            <span class="service-number">04</span>
+            <div class="service-content">
+              <h3 data-i18n="service4Title">Build user-centred design capability</h3>
+              <p data-i18n="service4Desc">Establish how successful products are designed and developed in your team, with practical ways of working that deliver lasting benefits.</p>
+              <p class="service-outcome" data-i18n="service4Outcome">An innovation engine for continuous value delivery</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Me / Model Section -->
+    <section class="model-section" id="model">
+      <div class="shell model-grid">
+        <div class="reveal">
+          <p class="section-label" data-i18n="modelLabel">Why me</p>
+          <h2 data-i18n="modelHeading">Lean principal-level expertise, embedded in your team.</h2>
+        </div>
+        <div class="model-list stagger-group">
+          <article class="model-item">
+            <span>01</span>
+            <div>
+              <h3 data-i18n="model1Title">Principal-level, hands-on</h3>
+              <p data-i18n="model1Desc">Former principal consultant at global technology consultancies and strategic research and design leader for multinational client teams. I shape the strategy and work directly on the diagnosis, decisions and delivery.</p>
+            </div>
+          </article>
+          <article class="model-item">
+            <span>02</span>
+            <div>
+              <h3 data-i18n="model2Title">Embedded, not separate</h3>
+              <p data-i18n="model2Desc">Bring diverse senior stakeholders across business and technology—from leadership to delivery—around a shared goal. Align priorities, connect teams and build the advocacy network needed to scale change.</p>
+            </div>
+          </article>
+          <article class="model-item">
+            <span>03</span>
+            <div>
+              <h3 data-i18n="model3Title">Lean, flexible and quick to engage</h3>
+              <p data-i18n="model3Desc">Direct access to principal-level expertise in my lean, focused engagement—embedded within your own or an existing partner team. Fixed-term and rolling engagements support a quicker start and the flexibility to adapt as priorities change.</p>
+            </div>
+          </article>
+          <article class="model-item">
+            <span>04</span>
+            <div>
+              <h3 data-i18n="model4Title">Fresh thinking, capability stays.</h3>
+              <p data-i18n="model4Desc">An independent outside view helps your team challenge assumptions, weigh options and make informed decisions. Working alongside you, I share knowledge and show by doing—so capability grows through the work, not just a handover.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section" id="testimonials" aria-labelledby="testimonial-heading">
+      <div class="shell testimonial-grid">
+        <h2 class="section-label reveal" id="testimonial-heading" data-i18n="testimonialLabel">Testimonials</h2>
+        <div class="testimonial-list stagger-group">
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="quote1P1">Li is an outstanding product and service design leader — someone you can trust to take ownership of complex, ambiguous challenges and deliver real outcomes.</p>
+              <p data-i18n="quote1P2">Li has a real strength in building relationships and working effectively with a wide range of stakeholders. What really stands out is Li’s ability to connect strategic intent to practical delivery.</p>
+            </blockquote>
+            <figcaption>
+              <strong>Dave Clark</strong>
+              <span data-i18n="quote1Role">Delivery Director of Zühlke</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              <p data-i18n="quote2P1">I have worked with Li on several high-profile and strategic accounts over the years, where she has always demonstrated incredible capabilities and amazing flair...</p>
+              <p data-i18n="quote2P2">She introduced the framework that would consistently join up the effort by 18 varied communities, and the senior stakeholders very much impressed by her ability not only in product and design, but also in making everyone feeling heard.</p>
+            </blockquote>
+            <figcaption>
+              <strong>Shen Xu</strong>
+              <span data-i18n="quote2Role">Account Director for Co-op</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="shell about-grid">
+        <div class="about-mark reveal" aria-hidden="true">LG</div>
+        <div class="about-copy reveal">
+          <p class="section-label" data-i18n="aboutLabel">About Li</p>
+          <h2 data-i18n="aboutHeading">A strategic catalyst who can go deep—and work across silos.</h2>
+          <p class="large-copy" data-i18n="aboutCopy1">I bring more than 20 years of strategic and hands-on experience across consulting, technology and complex organisations. I connect leaders, specialists and delivery teams to turn ambiguity into aligned decisions and practical momentum.</p>
+          <p data-i18n="aboutCopy2">My work spans product and platform strategy, user research, service design, data, technology, operating models, change and delivery. Method- and stack-agnostic, I focus on the user and business outcomes that should shape the solution—not a predetermined answer.</p>
+          <div class="credentials stagger-group" aria-label="Experience summary">
+            <div class="credential-item">
+              <strong>20+</strong>
+              <span data-i18n="cred1">years connecting strategy and delivery</span>
+            </div>
+            <div class="credential-item">
+              <strong data-i18n="cred2Title">Global</strong>
+              <span data-i18n="cred2">private and public-sector experience</span>
+            </div>
+            <div class="credential-item">
+              <strong data-i18n="cred3Title">Lean</strong>
+              <span data-i18n="cred3">independent, principal-led model</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fit Section (Where I'm most useful) -->
+    <section class="fit-section" id="fit">
+      <div class="shell fit-grid">
+        <p class="section-label light reveal" data-i18n="fitLabel">Where I'm most useful</p>
+        <div class="reveal">
+          <h2>
+            <span data-i18n="fitHeading1">You have capability.</span><br>
+            <span data-i18n="fitHeading2">But progress is constrained.</span>
+          </h2>
+          <ul class="stagger-group">
+            <li><span>01</span><span data-i18n="fitItem1">Product, user, business and technology priorities are disconnected.</span></li>
+            <li><span>02</span><span data-i18n="fitItem2">Teams are delivering features and activity without materially improving adoption or business value.</span></li>
+            <li><span>03</span><span data-i18n="fitItem3">Teams are solving local symptoms while the wider system gets harder to change.</span></li>
+            <li><span>04</span><span data-i18n="fitItem4">You need outside challenge and senior judgement—while retaining control.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="shell contact-grid">
+        <p class="section-label reveal" data-i18n="contactLabel">Start a conversation</p>
+        <div class="reveal">
+          <h2 data-i18n="contactHeading">Let's find what is really holding progress back.</h2>
+          <p data-i18n="contactCopy">Need a catalyst, not an army? I help your team unlock more value from the capabilities you already have, bring a fresh perspective and build momentum—without trying to change the whole world at once.</p>
+          
+          <div class="contact-direct-wrap">
+            <a href="mailto:li.gardner.design@gmail.com" class="direct-email-link" id="direct-email-link">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              <span class="direct-email-text" data-i18n="directEmail">li.gardner.design@gmail.com</span>
+            </a>
+            <div class="response-guarantee" data-i18n="responseGuarantee">
+              <span class="status-pulse-dot" aria-hidden="true"></span>
+              <span>You will receive a response within 48 hours</span>
+            </div>
+          </div>
+          
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name" data-i18n="formName">Your Name</label>
+                <input type="text" id="contact-name" name="name" required placeholder="Jane Doe">
+              </div>
+              <div class="form-group">
+                <label for="contact-email" data-i18n="formEmail">Your Email</label>
+                <input type="email" id="contact-email" name="email" required placeholder="jane@example.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-message" data-i18n="formMessage">Message</label>
+              <textarea id="contact-message" name="message" rows="4" required placeholder="Tell me about your product, platform or strategy challenge..."></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="consultation-cta consultation-cta-bottom" id="contact-submit-btn">
+                <span data-i18n="formSubmit">Send message</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" class="arrow-icon diagonal" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M5 12h14M14 7l5 5-5 5" />
+                </svg>
+              </button>
+              <div class="form-feedback" id="form-feedback" role="alert"></div>
+            </div>
+          </form>
+
+          <p class="contact-note" data-i18n="contactNote">Available for independent advisory and embedded transformation engagements.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+      <div class="shell">
+        <div class="footer-inner">
+          <a class="wordmark" href="#top" aria-label="Li Gardner, home">
+            <span class="brand-icon">LG</span>
+            <span class="brand-copy">
+              <span class="wordmark-name">Li Gardner</span>
+              <span class="brand-strapline" data-i18n="strapline">Global experience. Principal expertise. Embedded in your team.</span>
+            </span>
+          </a>
+          <a href="#top" class="back-top" data-i18n="backTop">Back to top ↑</a>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright" data-i18n="copyright">Copyright © 2026 LXQ Ltd. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script defer src="./script.js"></script>
+</body>
+</html>

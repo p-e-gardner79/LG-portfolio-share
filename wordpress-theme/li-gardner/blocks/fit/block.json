@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "li-gardner/fit",
+  "title": "Where I'm Most Useful (Fit)",
+  "category": "li-gardner",
+  "icon": "yes-alt",
+  "description": "Client fit criteria checklist identifying high-value problem signals.",
+  "keywords": ["fit", "checklist", "criteria", "value"],
+  "render": "file:./fit.php",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "fit.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "html": false
+  }
+}

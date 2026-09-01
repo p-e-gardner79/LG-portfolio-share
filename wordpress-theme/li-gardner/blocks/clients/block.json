@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "li-gardner/clients",
+  "title": "Client Organisations",
+  "category": "li-gardner",
+  "icon": "building",
+  "description": "Selected organisations and client typography logos.",
+  "keywords": ["clients", "logos", "organisations", "brands"],
+  "render": "file:./clients.php",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "clients.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "html": false
+  }
+}

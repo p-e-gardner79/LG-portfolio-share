@@ -1,0 +1,159 @@
+[
+  {
+    "key": "group_hero_block",
+    "title": "Hero Block Settings",
+    "fields": [
+      {
+        "key": "field_hero_line_1",
+        "label": "Headline Line 1",
+        "name": "hero_line_1",
+        "type": "text",
+        "default_value": "Connect what exists."
+      },
+      {
+        "key": "field_hero_line_2",
+        "label": "Headline Line 2",
+        "name": "hero_line_2",
+        "type": "text",
+        "default_value": "Change what matters."
+      },
+      {
+        "key": "field_hero_line_3",
+        "label": "Headline Line 3 (Terracotta Highlight)",
+        "name": "hero_line_3",
+        "type": "text",
+        "default_value": "Deliver what works."
+      },
+      {
+        "key": "field_hero_intro",
+        "label": "Introduction Copy",
+        "name": "hero_intro",
+        "type": "textarea",
+        "default_value": "User-centred strategy and design for products, platforms and services—with the change needed for adoption to stick."
+      },
+      {
+        "key": "field_hero_cta_text",
+        "label": "CTA Button Text",
+        "name": "hero_cta_text",
+        "type": "text",
+        "default_value": "Let's talk"
+      },
+      {
+        "key": "field_hero_cta_link",
+        "label": "CTA Button Link",
+        "name": "hero_cta_link",
+        "type": "text",
+        "default_value": "#contact"
+      },
+      {
+        "key": "field_hero_locations",
+        "label": "Locations Footer Line",
+        "name": "hero_locations",
+        "type": "text",
+        "default_value": "Worked locations: London · Manchester · Edinburgh · New York · San Francisco · Singapore · Shanghai · Hong Kong · Zurich"
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "block",
+          "operator": "==",
+          "value": "li-gardner/hero"
+        }
+      ]
+    ]
+  },
+  {
+    "key": "group_tension_block",
+    "title": "Leadership Dilemma Block Settings",
+    "fields": [
+      {
+        "key": "field_tension_label",
+        "label": "Section Label",
+        "name": "tension_label",
+        "type": "text",
+        "default_value": "The leadership dilemma"
+      },
+      {
+        "key": "field_tension_heading",
+        "label": "Heading",
+        "name": "tension_heading",
+        "type": "textarea",
+        "default_value": "Most technology investment isn't delivering the return leaders expected."
+      },
+      {
+        "key": "field_tension_lead",
+        "label": "Lead Text",
+        "name": "tension_lead",
+        "type": "textarea",
+        "default_value": "Low adoption is the result of building the wrong thing."
+      },
+      {
+        "key": "field_tension_copy_1",
+        "label": "Body Paragraph 1",
+        "name": "tension_copy_1",
+        "type": "textarea",
+        "default_value": "Point solutions treat symptoms. Large rework programmes promise transformation. Neither fixes what's stuck."
+      },
+      {
+        "key": "field_tension_copy_2",
+        "label": "Body Paragraph 2",
+        "name": "tension_copy_2",
+        "type": "textarea",
+        "default_value": "When complexity already exists, the answer is less, not more. I apply user-centred design at a strategy level—designing for how people actually work, so the technology sticks."
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "block",
+          "operator": "==",
+          "value": "li-gardner/tension"
+        }
+      ]
+    ]
+  },
+  {
+    "key": "group_about_block",
+    "title": "About Li Block Settings",
+    "fields": [
+      {
+        "key": "field_about_label",
+        "label": "Section Label",
+        "name": "about_label",
+        "type": "text",
+        "default_value": "About Li"
+      },
+      {
+        "key": "field_about_heading",
+        "label": "Heading",
+        "name": "about_heading",
+        "type": "textarea",
+        "default_value": "A strategic catalyst who can go deep—and work across silos."
+      },
+      {
+        "key": "field_about_copy_1",
+        "label": "Paragraph 1",
+        "name": "about_copy_1",
+        "type": "textarea",
+        "default_value": "I bring more than 20 years of strategic and hands-on experience across consulting, technology and complex organisations. I connect leaders, specialists and delivery teams to turn ambiguity into aligned decisions and practical momentum."
+      },
+      {
+        "key": "field_about_copy_2",
+        "label": "Paragraph 2",
+        "name": "about_copy_2",
+        "type": "textarea",
+        "default_value": "My work spans product and platform strategy, user research, service design, data, technology, operating models, change and delivery. Method- and stack-agnostic, I focus on the user and business outcomes that should shape the solution—not a predetermined answer."
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "block",
+          "operator": "==",
+          "value": "li-gardner/about"
+        }
+      ]
+    ]
+  }
+]

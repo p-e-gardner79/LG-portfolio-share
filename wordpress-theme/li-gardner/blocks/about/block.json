@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "li-gardner/about",
+  "title": "About Li & Credentials",
+  "category": "li-gardner",
+  "icon": "id-alt",
+  "description": "About Li Gardner biography, background, and summary credential badges.",
+  "keywords": ["about", "bio", "experience", "credentials"],
+  "render": "file:./about.php",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "about.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "html": false
+  }
+}

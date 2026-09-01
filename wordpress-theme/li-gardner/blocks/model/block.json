@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "li-gardner/model",
+  "title": "Why Me (Lean Principal Model)",
+  "category": "li-gardner",
+  "icon": "awards",
+  "description": "Why me section with 4 pillars of the embedded lean principal model.",
+  "keywords": ["why me", "model", "engagement", "benefits"],
+  "render": "file:./model.php",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "model.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "html": false
+  }
+}

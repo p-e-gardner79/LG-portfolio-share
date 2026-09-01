@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "li-gardner/approach",
+  "title": "High-Leverage Intervention (Approach)",
+  "category": "li-gardner",
+  "icon": "randomize",
+  "description": "4-step high-leverage strategic intervention process with stationary step numbers.",
+  "keywords": ["approach", "process", "steps", "intervention", "methodology"],
+  "render": "file:./approach.php",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "approach.php"
+  },
+  "supports": {
+    "align": ["full", "wide"],
+    "anchor": true,
+    "html": false
+  }
+}
